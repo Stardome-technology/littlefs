@@ -340,3 +340,9 @@ License Identifiers that are here available: http://spdx.org/licenses/
 [SPIFFS]: https://github.com/pellepl/spiffs
 [Dhara]: https://github.com/dlbeer/dhara
 [ChaN's FatFs]: http://elm-chan.org/fsw/ff/00index_e.html
+
+## Git workflow
+This repository is a fork consumed as a submodule: development integrates into the
+`stardome-stripped*` branch, never into the inherited upstream `main`/`master`.
+The authoritative rules for contributors and agents are in the `## Git workflow`
+section of [AGENTS.md](AGENTS.md).
